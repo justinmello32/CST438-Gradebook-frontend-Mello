@@ -1,1 +1,1 @@
-export const SERVER_URL = 'http://localhost:8081';
+export const SERVER_URL = 'https://mello-cst438-grade-fe.herokuapp.com/';
