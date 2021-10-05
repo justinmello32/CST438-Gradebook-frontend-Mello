@@ -58,7 +58,6 @@ class AddAssignment extends Component {
               position: toast.POSITION.BOTTOM_LEFT
           });
           console.log("A new Assignment has been added");
-          alert("The assignment" + assignmentName + " has been created!")
         } else {
           toast.error("Error, course not added", {
               position: toast.POSITION.BOTTOM_LEFT
