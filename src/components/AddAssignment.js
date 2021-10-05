@@ -47,7 +47,7 @@ class AddAssignment extends Component {
         var dueDate = this.state.dueDate;
         var courseName = this.state.courseName
       
-      fetch(`${SERVER_URL}/assignment?name=` + assignmentName + `&dueDate=` + dueDate + `&courseID=` + courseName,
+      fetch(`${SERVER_URL}assignment?name=` + assignmentName + `&dueDate=` + dueDate + `&courseID=` + courseName,
         {
           method: 'POST',
           headers: { 'X-XSRF-TOKEN': token }
