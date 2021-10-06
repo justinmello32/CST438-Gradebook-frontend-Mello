@@ -86,7 +86,7 @@ class AddAssignment extends Component {
                 <input type="date" name='dueDate' onChange={this.dueDateChangeHandler}  />
                 <p>Enter the Course ID</p>
                 <input variant="outlined" type="number" name='courseName' onChange={this.courseNameChangeHandler}/>
-                <input type="submit"/>
+                <input type="submit" name="submit"/>
             </form>
              
             <Button component={Link} to={{pathname:'/'}} 
