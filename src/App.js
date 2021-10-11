@@ -3,6 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Gradebook from './components/Gradebook';
+import Login from './components/Login';
 import Assignment from './components/Assignment';
 import AddAssignment from './components/AddAssignment';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
